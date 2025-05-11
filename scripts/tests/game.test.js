@@ -44,4 +44,7 @@ describe("newGame works correctly", () => {
     test("should clear score for curent game to be 0", () => {
         expect(game.currentGame.length).toBe(0);
     });
+    test("should clear player moves array", () => {
+        expect(game.playerMoves.length).toBe(0);
+    });
 });
